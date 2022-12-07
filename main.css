@@ -235,3 +235,25 @@ The result is:
     font-size: 2em;
   }
 }
+
+@media (max-width: 370px) {
+  .toggle {
+    right: -56px;
+  }
+}
+
+@media (max-width: 319px) {
+  .toggle.active{
+    background: url(1.png);
+    background-repeat: no-repeat;
+    right: -101px;
+  }
+}
+
+@media (max-width: 295px) {
+  .toggle.active{
+    background: url(1.png);
+    background-repeat: no-repeat;
+    right: -222px;
+  }
+}
